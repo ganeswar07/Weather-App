@@ -169,8 +169,9 @@ const showWeather = (response) => {
 };
 
 form.addEventListener("submit", (event) => {
+  const cityName = city.value.trim();
   if (city.value !== "") {
-    getWeather(city.value);
+    getWeather(cityName);
   } else {
     weather.innerHTML = `<h2 >Hold on! The weather ghosts are lonely without a city to haunt. Type one in, if you dare!</h2>`;
   }

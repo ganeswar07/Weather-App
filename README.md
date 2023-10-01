@@ -1,7 +1,8 @@
 
 # Weather App
 
-![Weather App Preview](Demo.png)
+![Weather App Preview](images/Demo.png)
+
 
 ## Description
 
@@ -68,6 +69,9 @@ If you would like to contribute to the project, please follow these guidelines:
 - **Coding Style:**
   - Please follow the existing coding style used in the project. Consistency makes it easier for everyone to read and maintain the codebase.
 
+- **API Key Validation:**
+  - Ensure that OpenWeatherMap API key is valid.
+  - If you encounter issues with the API key, please go to the [OpenWeatherMap website](https://openweathermap.org/) and obtain your own API key.
 
 
 ## Acknowledgments
