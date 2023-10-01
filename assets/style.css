@@ -25,19 +25,15 @@ body {
     height: 3rem;
     font-size: 1.2rem;
 }
-
 .box{
-  
     background-color: rgb(131 200 204);
     padding: 20px 20px 10px 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-   
 }
 #submit{
     font-size: 1.2rem;
 }
-
 #weather{
     display: flex;
     justify-content: center;
@@ -81,7 +77,6 @@ form{
 .card-body{
     font-size: 1.2rem;
 }
-
 
 /*  Loading Spinner */
 .loading-spinner {

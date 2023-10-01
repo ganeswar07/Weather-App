@@ -100,7 +100,7 @@ const getWeather = async (city) => {
 };
 
 const showWeather = (response) => {
-  console.log(response);
+  
   weather.innerHTML = ` 
               <div>
               <img src="https://openweathermap.org/img/wn/${response.weather[0].icon}@2x.png" alt="">
