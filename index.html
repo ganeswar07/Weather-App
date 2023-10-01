@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the magic of weather with  amazing app!">
+  <meta name="keywords" content="weather, forecast, meteorology, app">
+  <meta name="author" content="Ganeswar Sahoo">
+  <title>Weather App</title>
+
+  <!-- Link to Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+ 
+    <!-- Link to  custom stylesheet  -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Container for the main content -->
+  <div class="container-sm my-5">
+    <!-- Box containing a form for city search and weather display -->
+    <div class="box">
+      <!-- Header section containing the main title of the Weather App -->
+      <header>
+        <h1>Weather Wonders</h1>
+      </header>
+      <!-- Form for city search -->
+      <form class="d-flex justify-content-center " role="search">
+        <!-- Input field for entering city name -->
+        <input class="input form-control me-3  border-bottom border-body " type=" search" placeholder="Enter City Name "
+          aria-label="Search" id="city">
+        <!-- Search button -->
+        <button class="btn btn-outline-dark" type="submit" id="submit">Search</button>
+      </form>
+      <!-- Weather box for displaying weather information -->
+      <div class="weather-box">
+        <!-- Container for weather information  -->
+        <div id="weather">
+          <!-- Weather information will be displayed here -->
+        </div>
+      </div>
+      <!-- Row for weather details -->
+      <div class="row gap-0" id="weather-detail">
+        <!-- Weather details will be displayed here -->
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+  <!-- Bootstrap JavaScript bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- custom JavaScript file -->
+  <script src="script.js"></script>
+</body>
+
+</html>
