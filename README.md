@@ -48,7 +48,8 @@ These instructions will help you set up and run the Weather App on your local ma
 If you would like to contribute to the project, please follow these guidelines:
 
 - **Bug Reports:**
-  - Check the existing [issues](link_to_issues) to see if the bug has already been reported.
+- Check the existing [issues](https://github.com/ganeswar07/Weather-App/issues) to see if the bug has already been reported.
+
   - If not, create a new issue with a clear and detailed description. Include information such as the steps to reproduce the bug, expected behavior, and your environment (browser, operating system).
 
 - **Feature Requests:**
